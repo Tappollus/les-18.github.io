@@ -27,17 +27,17 @@ header {
 }
 
 [class*="col-"]{
-  float: left;
-  padding: 15px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 736px){
   [class*="col-"]{
-    width: 100%;
+    float: left;
+    padding: 15px;
   }
-
-.col-2 {width: 16.66%;}
-.col-9 {width: 75%;}
+  .col-2 {width: 16.66%;}
+  .col-9 {width: 75%;}
+}
 
 .hok1 {
   height: 50%;
