@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+  @media only screen and (min-width: 600px){
+    body{
+      background-color: rgba(255, 0, 0, 0.2);
+    }
+  }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+  padding-right: 10px;
+}
+header {
+  background-image: url(img/balen.jpeg);
+  background-color: rgba(37, 212, 177, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 260px;
+}
+
+.imgrechts{
+  float: right;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+}
+
+.col-2 {width: 16.66%;}
+.col-9 {width: 75%;}
+
+.hok1 {
+  min-height: 400px;
+}
+
+.hok2 {
+  min-height: 300px;
+}
+
+p {
+  min-width: 500px;
+  width: 75%;
+}
+
+.color {
+  background-color: rgba(50, 212, 200, 0.3);
+}
+
+img {
+  min-height: 300px;
+  height: 50%;
+}
